@@ -4,8 +4,8 @@ int main()
 {
     int var1 = 100;
     printf("int : %d\n" , var1);
-    printf("hex : %o\n" , var1);
-    printf("oct : %x\n" , var1);
+    printf("hex : %h\n" , var1);
+    printf("oct : %o\n" , var1);
 
     char var2 = 'c';
     printf("char : %c\n" , var2);
