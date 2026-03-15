@@ -2,11 +2,13 @@
 
 int main()
 {
-    for(int i =1; i<10; i++){
-        for(int j =1; j<10; j++){
-            printf("%d * %d = %d\n", i, j, i*j);
-        }
-    }
+    int num1,num2;
+    char op;
+    scanf("%d %d %s", &num1, &num2, &op);
+    if (op == '+') printf("%d\n", num1 + num2);
+    else if (op == '-') printf("%d\n", num1 - num2);
+    else if (op == '*') printf("%d\n", num1 * num2);
+    else if (op == '/') printf("%d\n", num1 / num2);
 
     return 0;
 }
