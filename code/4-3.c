@@ -5,12 +5,11 @@ int main()
     int n;
     int divisor = 0;
 
-     if(n==1){
+    scanf("%d", &n);
+    if(n==1){
         printf("false");
         break;
     }
-
-    scanf("%d", &n);
     for(int i =2; i * i <= n; i++){
         int test = n % i;
         if(test == 0){
