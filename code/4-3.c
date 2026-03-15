@@ -8,7 +8,7 @@ int main()
     scanf("%d", &n);
     if(n==1){
         printf("false");
-        break;
+        return 0;
     }
     for(int i =2; i * i <= n; i++){
         int test = n % i;
