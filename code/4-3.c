@@ -6,7 +6,8 @@ int main()
     int divisor = 0;
 
      if(n==1){
-        divisor = 1;
+        printf("false");
+        break;
     }
 
     scanf("%d", &n);
