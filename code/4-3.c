@@ -5,6 +5,10 @@ int main()
     int n;
     int divisor = 0;
 
+     if(n==1){
+        divisor = 1;
+    }
+
     scanf("%d", &n);
     for(int i =2; i * i <= n; i++){
         int test = n % i;
@@ -20,7 +24,6 @@ int main()
     if(divisor == 0){
         printf("true");
     }
-
     return 0;
 }
 
